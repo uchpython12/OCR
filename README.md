@@ -1,8 +1,17 @@
 img_name = './002.zh-cht.png' : 調整載入的圖片 繁體中文
+
+
 text = pytesseract.image_to_string(img, lang='chi_tra+eng') : 圖片轉文字，使用繁體中文與英文
+
+
 英文 : eng
+
+
 繁體中文 : chi_tra
+
+
 簡體中文 : chi_sim
+
 
 ocrText() : 將目標圖片轉換成文字
 
